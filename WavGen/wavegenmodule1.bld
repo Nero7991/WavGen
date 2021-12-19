@@ -1,0 +1,27 @@
+Release 6.1i - ngdbuild G.23
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd c:\xilinx\wavgen/_ngo -i -p
+xc3s400-pq208-4 wavegenmodule1.ngc wavegenmodule1.ngd 
+
+Reading NGO file "c:/xilinx/wavgen/wavegenmodule1.ngc" ...
+Reading component libraries for design expansion...
+Loading design module "c:\xilinx\wavgen/wavegenmodule1.ngc"...
+WARNING:NgdBuild:578 - Design contains no instances.
+
+Checking timing specifications ...
+Checking expanded design ...
+ERROR:NgdBuild:605 - logical root block 'wavegenmodule1' with type
+   'wavegenmodule1' is unexpanded. Symbol 'wavegenmodule1' is not supported in
+   target 'spartan3'.
+
+NGDBUILD Design Results Summary:
+  Number of errors:     1
+  Number of warnings:   0
+
+Total memory usage is 39632 kilobytes
+
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "wavegenmodule1.bld"...

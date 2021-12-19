@@ -1,0 +1,627 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: WaveGenModule1.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "WaveGenModule1.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "WaveGenModule1"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : WaveGenModule1
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" into library work
+Parsing entity <WaveGenModule1>.
+Parsing architecture <Behavioral> of entity <wavegenmodule1>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <WaveGenModule1> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 147: output_buf should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 148: output_buf should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 149: output_buf should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 150: output_buf should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 151: output_buf should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 152: output_buf should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 153: output_buf should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 154: output_buf should be on the sensitivity list of the process
+INFO:HDLCompiler:679 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 155. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 171: sine_lut should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 172: tri_lut should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 173: squ_lut should be on the sensitivity list of the process
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <WaveGenModule1>.
+    Related source file is "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd".
+WARNING:Xst:2999 - Signal 'sine_lut', unconnected in block 'WaveGenModule1', is tied to its initial value.
+WARNING:Xst:2999 - Signal 'tri_lut', unconnected in block 'WaveGenModule1', is tied to its initial value.
+WARNING:Xst:2999 - Signal 'squ_lut', unconnected in block 'WaveGenModule1', is tied to its initial value.
+    Found 32x8-bit single-port Read Only RAM <Mram_sine_lut> for signal <sine_lut>.
+    Found 32x8-bit single-port Read Only RAM <Mram_tri_lut> for signal <tri_lut>.
+    Found 32x8-bit single-port Read Only RAM <Mram_squ_lut> for signal <squ_lut>.
+    Found 24-bit register for signal <clockdivider>.
+    Found 24-bit register for signal <counter>.
+    Found 5-bit register for signal <lut_ptr>.
+    Found 4-bit register for signal <clk_div_baud>.
+    Found 4-bit register for signal <uart_tx_state>.
+    Found 4-bit register for signal <uart_stop_time>.
+    Found 3-bit register for signal <uart_tx_count>.
+    Found 2-bit register for signal <waveselect>.
+    Found 24-bit register for signal <counter_ref>.
+    Found 1-bit register for signal <clk_2hz>.
+    Found 1-bit register for signal <tx_send>.
+    Found 24-bit adder for signal <clockdivider[23]_GND_6_o_add_1_OUT> created at line 82.
+    Found 24-bit adder for signal <counter[23]_GND_6_o_add_3_OUT> created at line 84.
+    Found 5-bit adder for signal <lut_ptr[4]_GND_6_o_add_5_OUT> created at line 87.
+    Found 4-bit adder for signal <clk_div_baud[3]_GND_6_o_add_8_OUT> created at line 91.
+    Found 4-bit adder for signal <uart_stop_time[3]_GND_6_o_add_11_OUT> created at line 95.
+    Found 4-bit adder for signal <uart_tx_state[3]_GND_6_o_add_13_OUT> created at line 97.
+    Found 3-bit adder for signal <uart_tx_count[2]_GND_6_o_add_19_OUT> created at line 102.
+    Found 2-bit adder for signal <waveselect[1]_GND_6_o_add_50_OUT> created at line 128.
+    Found 24-bit adder for signal <counter_ref[23]_GND_6_o_add_51_OUT> created at line 130.
+    Found 24-bit subtractor for signal <GND_6_o_GND_6_o_sub_53_OUT<23:0>> created at line 132.
+    Found 1-bit 8-to-1 multiplexer for signal <uart_tx_count[2]_output_buf[7]_Mux_63_o> created at line 146.
+    Found 8-bit 4-to-1 multiplexer for signal <output> created at line 170.
+    Found 4-bit 4-to-1 multiplexer for signal <_n0196> created at line 101.
+    Found 24-bit comparator greater for signal <n0000> created at line 78
+    Found 24-bit comparator equal for signal <counter[23]_counter_ref[23]_equal_5_o> created at line 85
+    Summary:
+	inferred   3 RAM(s).
+	inferred   9 Adder/Subtractor(s).
+	inferred  96 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred  22 Multiplexer(s).
+Unit <WaveGenModule1> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 32x8-bit single-port Read Only RAM                    : 3
+# Adders/Subtractors                                   : 9
+ 2-bit adder                                           : 1
+ 24-bit adder                                          : 2
+ 24-bit addsub                                         : 1
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 3
+ 5-bit adder                                           : 1
+# Registers                                            : 11
+ 1-bit register                                        : 2
+ 2-bit register                                        : 1
+ 24-bit register                                       : 3
+ 3-bit register                                        : 1
+ 4-bit register                                        : 3
+ 5-bit register                                        : 1
+# Comparators                                          : 2
+ 24-bit comparator equal                               : 1
+ 24-bit comparator greater                             : 1
+# Multiplexers                                         : 22
+ 1-bit 2-to-1 multiplexer                              : 7
+ 1-bit 8-to-1 multiplexer                              : 1
+ 2-bit 2-to-1 multiplexer                              : 1
+ 24-bit 2-to-1 multiplexer                             : 2
+ 3-bit 2-to-1 multiplexer                              : 1
+ 4-bit 2-to-1 multiplexer                              : 8
+ 4-bit 4-to-1 multiplexer                              : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <WaveGenModule1>.
+The following registers are absorbed into counter <uart_tx_state>: 1 register on signal <uart_tx_state>.
+The following registers are absorbed into accumulator <counter_ref>: 1 register on signal <counter_ref>.
+The following registers are absorbed into counter <clockdivider>: 1 register on signal <clockdivider>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+The following registers are absorbed into counter <lut_ptr>: 1 register on signal <lut_ptr>.
+The following registers are absorbed into counter <clk_div_baud>: 1 register on signal <clk_div_baud>.
+The following registers are absorbed into counter <uart_tx_count>: 1 register on signal <uart_tx_count>.
+The following registers are absorbed into counter <waveselect>: 1 register on signal <waveselect>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_sine_lut> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <lut_ptr>       |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_tri_lut> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <lut_ptr>       |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_squ_lut> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <lut_ptr>       |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <WaveGenModule1> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 32x8-bit single-port distributed Read Only RAM        : 3
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 2
+# Counters                                             : 7
+ 2-bit up counter                                      : 1
+ 24-bit up counter                                     : 2
+ 3-bit up counter                                      : 1
+ 4-bit up counter                                      : 2
+ 5-bit up counter                                      : 1
+# Accumulators                                         : 1
+ 24-bit updown accumulator                             : 1
+# Registers                                            : 6
+ Flip-Flops                                            : 6
+# Comparators                                          : 2
+ 24-bit comparator equal                               : 1
+ 24-bit comparator greater                             : 1
+# Multiplexers                                         : 17
+ 1-bit 2-to-1 multiplexer                              : 7
+ 1-bit 8-to-1 multiplexer                              : 1
+ 4-bit 2-to-1 multiplexer                              : 7
+ 4-bit 4-to-1 multiplexer                              : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <WaveGenModule1> ...
+WARNING:Xst:1710 - FF/Latch <uart_stop_time_0> (without init value) has a constant value of 0 in block <WaveGenModule1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <uart_stop_time_1> (without init value) has a constant value of 0 in block <WaveGenModule1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <uart_stop_time_2> (without init value) has a constant value of 0 in block <WaveGenModule1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <uart_stop_time_3> (without init value) has a constant value of 0 in block <WaveGenModule1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <counter_ref_1> (without init value) has a constant value of 0 in block <WaveGenModule1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <counter_ref_2> (without init value) has a constant value of 0 in block <WaveGenModule1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <counter_ref_3> (without init value) has a constant value of 1 in block <WaveGenModule1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clockdivider_21> (without init value) has a constant value of 0 in block <WaveGenModule1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clockdivider_22> (without init value) has a constant value of 0 in block <WaveGenModule1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clockdivider_23> (without init value) has a constant value of 0 in block <WaveGenModule1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_div_baud_2> (without init value) has a constant value of 0 in block <WaveGenModule1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_div_baud_3> (without init value) has a constant value of 0 in block <WaveGenModule1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <uart_tx_state_2> (without init value) has a constant value of 0 in block <WaveGenModule1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <uart_tx_state_3> (without init value) has a constant value of 0 in block <WaveGenModule1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <counter_ref_0> (without init value) has a constant value of 0 in block <WaveGenModule1>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block WaveGenModule1, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 81
+ Flip-Flops                                            : 81
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : WaveGenModule1.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 274
+#      GND                         : 1
+#      INV                         : 7
+#      LUT1                        : 1
+#      LUT2                        : 78
+#      LUT3                        : 8
+#      LUT4                        : 3
+#      LUT5                        : 7
+#      LUT6                        : 22
+#      MUXCY                       : 75
+#      MUXF7                       : 6
+#      VCC                         : 1
+#      XORCY                       : 65
+# FlipFlops/Latches                : 81
+#      FD                          : 1
+#      FDC                         : 46
+#      FDCE                        : 33
+#      FDPE                        : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 4
+#      OBUF                        : 9
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              81  out of  11440     0%  
+ Number of Slice LUTs:                  126  out of   5720     2%  
+    Number used as Logic:               126  out of   5720     2%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    127
+   Number with an unused Flip Flop:      46  out of    127    36%  
+   Number with an unused LUT:             1  out of    127     0%  
+   Number of fully used LUT-FF pairs:    80  out of    127    62%  
+   Number of unique control sets:         8
+
+IO Utilization: 
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    102    13%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_2hz                            | BUFG                   | 22    |
+clk                                | BUFGP                  | 59    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.619ns (Maximum Frequency: 216.506MHz)
+   Minimum input arrival time before clock: 4.034ns
+   Maximum output required time after clock: 8.098ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_2hz'
+  Clock period: 2.800ns (frequency: 357.124MHz)
+  Total number of paths / destination ports: 407 / 24
+-------------------------------------------------------------------------
+Delay:               2.800ns (Levels of Logic = 1)
+  Source:            waveselect_0 (FF)
+  Destination:       waveselect_0 (FF)
+  Source Clock:      clk_2hz rising
+  Destination Clock: clk_2hz rising
+
+  Data Path: waveselect_0 to waveselect_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            15   0.447   1.210  waveselect_0 (waveselect_0)
+     LUT3:I0->O            2   0.205   0.616  _n0266_inv1 (_n0266_inv)
+     FDCE:CE                   0.322          waveselect_0
+    ----------------------------------------
+    Total                      2.800ns (0.974ns logic, 1.826ns route)
+                                       (34.8% logic, 65.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.619ns (frequency: 216.506MHz)
+  Total number of paths / destination ports: 16071 / 71
+-------------------------------------------------------------------------
+Delay:               4.619ns (Levels of Logic = 24)
+  Source:            clockdivider_8 (FF)
+  Destination:       clockdivider_20 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: clockdivider_8 to clockdivider_20
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.447   0.981  clockdivider_8 (clockdivider_8)
+     LUT6:I0->O            3   0.203   0.879  n0000_inv_inv32 (n0000_inv_inv31)
+     LUT6:I3->O           11   0.205   0.883  n0000_inv_inv34_1 (n0000_inv_inv34)
+     LUT2:I1->O            1   0.205   0.000  Mcount_clockdivider_lut<0> (Mcount_clockdivider_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Mcount_clockdivider_cy<0> (Mcount_clockdivider_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_clockdivider_cy<1> (Mcount_clockdivider_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_clockdivider_cy<2> (Mcount_clockdivider_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_clockdivider_cy<3> (Mcount_clockdivider_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_clockdivider_cy<4> (Mcount_clockdivider_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_clockdivider_cy<5> (Mcount_clockdivider_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_clockdivider_cy<6> (Mcount_clockdivider_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_clockdivider_cy<7> (Mcount_clockdivider_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_clockdivider_cy<8> (Mcount_clockdivider_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_clockdivider_cy<9> (Mcount_clockdivider_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_clockdivider_cy<10> (Mcount_clockdivider_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_clockdivider_cy<11> (Mcount_clockdivider_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_clockdivider_cy<12> (Mcount_clockdivider_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_clockdivider_cy<13> (Mcount_clockdivider_cy<13>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_clockdivider_cy<14> (Mcount_clockdivider_cy<14>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_clockdivider_cy<15> (Mcount_clockdivider_cy<15>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_clockdivider_cy<16> (Mcount_clockdivider_cy<16>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_clockdivider_cy<17> (Mcount_clockdivider_cy<17>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_clockdivider_cy<18> (Mcount_clockdivider_cy<18>)
+     MUXCY:CI->O           0   0.019   0.000  Mcount_clockdivider_cy<19> (Mcount_clockdivider_cy<19>)
+     XORCY:CI->O           1   0.180   0.000  Mcount_clockdivider_xor<20> (Mcount_clockdivider20)
+     FDC:D                     0.102          clockdivider_20
+    ----------------------------------------
+    Total                      4.619ns (1.875ns logic, 2.744ns route)
+                                       (40.6% logic, 59.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_2hz'
+  Total number of paths / destination ports: 394 / 64
+-------------------------------------------------------------------------
+Offset:              4.034ns (Levels of Logic = 2)
+  Source:            incf_in (PAD)
+  Destination:       counter_ref_4 (FF)
+  Destination Clock: clk_2hz rising
+
+  Data Path: incf_in to counter_ref_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            25   1.222   1.193  incf_in_IBUF (incf_in_IBUF)
+     LUT3:I2->O           20   0.205   1.092  _n0272_inv1 (_n0272_inv)
+     FDPE:CE                   0.322          counter_ref_4
+    ----------------------------------------
+    Total                      4.034ns (1.749ns logic, 2.285ns route)
+                                       (43.4% logic, 56.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 59 / 59
+-------------------------------------------------------------------------
+Offset:              3.623ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       tx_send (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst to tx_send
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            81   1.222   2.096  rst_IBUF (rst_IBUF)
+     LUT6:I1->O            1   0.203   0.000  tx_send_rstpot (tx_send_rstpot)
+     FD:D                      0.102          tx_send
+    ----------------------------------------
+    Total                      3.623ns (1.527ns logic, 2.096ns route)
+                                       (42.1% logic, 57.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 96 / 9
+-------------------------------------------------------------------------
+Offset:              8.058ns (Levels of Logic = 6)
+  Source:            lut_ptr_4 (FF)
+  Destination:       tx (PAD)
+  Source Clock:      clk rising
+
+  Data Path: lut_ptr_4 to tx
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            13   0.447   1.277  lut_ptr_4 (lut_ptr_4)
+     LUT6:I1->O            1   0.203   0.684  Mmux_output71 (Mmux_output7)
+     LUT2:I0->O            2   0.203   0.864  Mmux_output72 (output_6_OBUF)
+     LUT6:I2->O            1   0.203   0.000  Mmux_uart_tx_count[2]_output_buf[7]_Mux_63_o_3 (Mmux_uart_tx_count[2]_output_buf[7]_Mux_63_o_3)
+     MUXF7:I1->O           1   0.140   0.684  Mmux_uart_tx_count[2]_output_buf[7]_Mux_63_o_2_f7 (uart_tx_count[2]_output_buf[7]_Mux_63_o)
+     LUT4:I2->O            1   0.203   0.579  Mmux_tx11 (tx_OBUF)
+     OBUF:I->O                 2.571          tx_OBUF (tx)
+    ----------------------------------------
+    Total                      8.058ns (3.970ns logic, 4.088ns route)
+                                       (49.3% logic, 50.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_2hz'
+  Total number of paths / destination ports: 40 / 9
+-------------------------------------------------------------------------
+Offset:              8.098ns (Levels of Logic = 6)
+  Source:            waveselect_0 (FF)
+  Destination:       tx (PAD)
+  Source Clock:      clk_2hz rising
+
+  Data Path: waveselect_0 to tx
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            15   0.447   1.326  waveselect_0 (waveselect_0)
+     LUT6:I1->O            1   0.203   0.684  Mmux_output31 (Mmux_output3)
+     LUT2:I0->O            2   0.203   0.864  Mmux_output32 (output_2_OBUF)
+     LUT6:I2->O            1   0.203   0.000  Mmux_uart_tx_count[2]_output_buf[7]_Mux_63_o_4 (Mmux_uart_tx_count[2]_output_buf[7]_Mux_63_o_4)
+     MUXF7:I0->O           1   0.131   0.684  Mmux_uart_tx_count[2]_output_buf[7]_Mux_63_o_2_f7 (uart_tx_count[2]_output_buf[7]_Mux_63_o)
+     LUT4:I2->O            1   0.203   0.579  Mmux_tx11 (tx_OBUF)
+     OBUF:I->O                 2.571          tx_OBUF (tx)
+    ----------------------------------------
+    Total                      8.098ns (3.961ns logic, 4.137ns route)
+                                       (48.9% logic, 51.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.619|         |         |         |
+clk_2hz        |    4.379|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk_2hz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_2hz        |    2.800|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.17 secs
+ 
+--> 
+
+Total memory usage is 4509904 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   29 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

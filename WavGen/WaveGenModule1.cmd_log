@@ -1,0 +1,44 @@
+xst -ise "C:/Xilinx/WavGen/WavGen.ise" -intstyle ise -ifn WaveGenModule1.xst -ofn WaveGenModule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+ngdbuild -intstyle ise -dd c:\xilinx\wavgen/_ngo -i  -p xc3s400-pq208-4 wavegenmodule1.ngc wavegenmodule1.ngd
+ngdbuild -intstyle ise -dd c:\xilinx\wavgen/_ngo -i  -p xc3s400-pq208-4 wavegenmodule1.ngc wavegenmodule1.ngd
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr
+xst -intstyle ise -ifn __projnav/wavegenmodule1.xst -ofn wavegenmodule1.syr

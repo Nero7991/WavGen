@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\impact.xsl
+OUTFILE=C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen
+LICENSE=iMPACT
+USER_INFO=iMPACT

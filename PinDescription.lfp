@@ -1,0 +1,11 @@
+# begin LFP file C:\Xilinx\WavGen\PinDescription.lfp
+designfile wavegenmodule1.ngd
+IO_GROUP "output" IO_GROUP="wavegenmodule1" ;
+NET "output<7>" IO_GROUP="output"  ;
+NET "output<6>" IO_GROUP="output"  ;
+NET "output<5>" IO_GROUP="output"  ;
+NET "output<4>" IO_GROUP="output"  ;
+NET "output<3>" IO_GROUP="output"  ;
+NET "output<2>" IO_GROUP="output"  ;
+NET "output<1>" IO_GROUP="output"  ;
+NET "output<0>" IO_GROUP="output"  ;

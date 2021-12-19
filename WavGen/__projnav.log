@@ -1,0 +1,1489 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+Entity <WaveGenModule1> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <wavegenmodule1> (Architecture <Behavioral>).
+Entity <wavegenmodule1> analyzed. Unit <wavegenmodule1> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <wavegenmodule1>.
+    Related source file is c:/xilinx/wavgen/WaveGenModule1.vhd.
+WARNING:Xst:1306 - Output <D0> is never assigned.
+WARNING:Xst:1306 - Output <D1> is never assigned.
+WARNING:Xst:1306 - Output <D2> is never assigned.
+WARNING:Xst:1306 - Output <D3> is never assigned.
+WARNING:Xst:1306 - Output <D4> is never assigned.
+WARNING:Xst:647 - Input <CLK> is never used.
+WARNING:Xst:1306 - Output <D5> is never assigned.
+WARNING:Xst:1306 - Output <D6> is never assigned.
+WARNING:Xst:1306 - Output <D7> is never assigned.
+WARNING:Xst:647 - Input <S0> is never used.
+WARNING:Xst:647 - Input <S1> is never used.
+WARNING:Xst:647 - Input <S2> is never used.
+Unit <wavegenmodule1> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <wavegenmodule1> ...
+Loading device for application Xst from file '3s400.nph' in environment D:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block wavegenmodule1, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-4 
+
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd c:\xilinx\wavgen/_ngo -i -p
+xc3s400-pq208-4 wavegenmodule1.ngc wavegenmodule1.ngd 
+
+Reading NGO file "c:/xilinx/wavgen/wavegenmodule1.ngc" ...
+Reading component libraries for design expansion...
+Loading design module "c:\xilinx\wavgen/wavegenmodule1.ngc"...
+WARNING:NgdBuild:578 - Design contains no instances.
+
+Checking timing specifications ...
+Checking expanded design ...
+ERROR:NgdBuild:605 - logical root block 'wavegenmodule1' with type
+   'wavegenmodule1' is unexpanded. Symbol 'wavegenmodule1' is not supported in
+   target 'spartan3'.
+
+NGDBUILD Design Results Summary:
+  Number of errors:     1
+  Number of warnings:   0
+
+Total memory usage is 39692 kilobytes
+
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "wavegenmodule1.bld"...
+ERROR: NGDBUILD failed
+Process "Translate" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd c:\xilinx\wavgen/_ngo -i -p
+xc3s400-pq208-4 wavegenmodule1.ngc wavegenmodule1.ngd 
+
+Reading NGO file "c:/xilinx/wavgen/wavegenmodule1.ngc" ...
+Reading component libraries for design expansion...
+Loading design module "c:\xilinx\wavgen/wavegenmodule1.ngc"...
+WARNING:NgdBuild:578 - Design contains no instances.
+
+Checking timing specifications ...
+Checking expanded design ...
+ERROR:NgdBuild:605 - logical root block 'wavegenmodule1' with type
+   'wavegenmodule1' is unexpanded. Symbol 'wavegenmodule1' is not supported in
+   target 'spartan3'.
+
+NGDBUILD Design Results Summary:
+  Number of errors:     1
+  Number of warnings:   0
+
+Total memory usage is 39632 kilobytes
+
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "wavegenmodule1.bld"...
+ERROR: NGDBUILD failed
+Process "Translate" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+Architecture behavioral of Entity wavegenmodule1 is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <wavegenmodule1> (Architecture <behavioral>).
+Entity <wavegenmodule1> analyzed. Unit <wavegenmodule1> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <wavegenmodule1>.
+    Related source file is c:/xilinx/wavgen/WaveGenModule1.vhd.
+WARNING:Xst:1306 - Output <D0> is never assigned.
+WARNING:Xst:1306 - Output <D1> is never assigned.
+WARNING:Xst:1306 - Output <D2> is never assigned.
+WARNING:Xst:1306 - Output <D3> is never assigned.
+WARNING:Xst:1306 - Output <D4> is never assigned.
+WARNING:Xst:647 - Input <CLK> is never used.
+WARNING:Xst:1306 - Output <D5> is never assigned.
+WARNING:Xst:1306 - Output <D6> is never assigned.
+WARNING:Xst:1306 - Output <D7> is never assigned.
+WARNING:Xst:647 - Input <S0> is never used.
+WARNING:Xst:647 - Input <S1> is never used.
+WARNING:Xst:647 - Input <S2> is never used.
+Unit <wavegenmodule1> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <wavegenmodule1> ...
+Loading device for application Xst from file '3s400.nph' in environment D:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block wavegenmodule1, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-4 
+
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D0 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D1 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D2 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D3 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D4 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D5 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D6 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D7 of mode OUT can not be read.
+ERROR:HDLParsers:1402 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 40. Object S0 of mode IN can not be updated.
+ERROR:HDLParsers:1402 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 41. Object S1 of mode IN can not be updated.
+ERROR:HDLParsers:1402 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 42. Object S2 of mode IN can not be updated.
+ERROR:HDLParsers:1402 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 43. Object CLK of mode IN can not be updated.
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D0 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D1 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D2 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D3 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D4 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D5 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D6 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D7 of mode OUT can not be read.
+ERROR:HDLParsers:1402 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 40. Object CLK of mode IN can not be updated.
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D0 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D1 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D2 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D3 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D4 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D5 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D6 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D7 of mode OUT can not be read.
+ERROR:HDLParsers:800 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 32. Type of D0 is incompatible with type of 1.
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D0 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D1 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D2 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D3 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D4 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D5 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D6 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D7 of mode OUT can not be read.
+ERROR:HDLParsers:800 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 32. Type of D0 is incompatible with type of 1.
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D0 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D1 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D2 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D3 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D4 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D5 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D6 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D7 of mode OUT can not be read.
+ERROR:HDLParsers:800 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 32. Type of D0 is incompatible with type of 1.
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D0 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D1 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D2 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D3 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D4 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D5 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D6 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D7 of mode OUT can not be read.
+ERROR:HDLParsers:800 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 32. Type of D0 is incompatible with type of 1.
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D0 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D1 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D2 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D3 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D4 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D5 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D6 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D7 of mode OUT can not be read.
+ERROR:HDLParsers:800 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 32. Type of D0 is incompatible with type of 1.
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D0 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D1 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D2 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D3 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D4 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D5 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D6 of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 29. Object D7 of mode OUT can not be read.
+ERROR:HDLParsers:800 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 32. Type of D0 is incompatible with type of 1.
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 19. Object data of mode OUT can not be read.
+ERROR:HDLParsers:3384 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 22. String Literal "11111111" is not of size 257.
+WARNING:HDLParsers:1406 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 19. No sensitivity list and no wait in the process
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 19. Object data of mode OUT can not be read.
+ERROR:HDLParsers:3384 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 22. String Literal "1111111" is not of size 257.
+WARNING:HDLParsers:1406 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 19. No sensitivity list and no wait in the process
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 19. Object data of mode OUT can not be read.
+ERROR:HDLParsers:3384 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 22. String Literal "1111111" is not of size 256.
+WARNING:HDLParsers:1406 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 19. No sensitivity list and no wait in the process
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:1401 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 20. Object data of mode OUT can not be read.
+ERROR:HDLParsers:3384 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 23. String Literal "1111111" is not of size 256.
+WARNING:HDLParsers:1406 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 20. No sensitivity list and no wait in the process
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:164 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 20. parse error, unexpected CLOSEPAR, expecting IDENTIFIER or STRING_LITERAL
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:164 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 20. parse error, unexpected CLOSEPAR, expecting IDENTIFIER or STRING_LITERAL
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:164 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 20. parse error, unexpected CLOSEPAR, expecting IDENTIFIER or STRING_LITERAL
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:164 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 20. parse error, unexpected TOKBEGIN
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:164 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 20. parse error, unexpected CLOSEPAR, expecting IDENTIFIER or STRING_LITERAL
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:164 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 20. parse error, unexpected INTEGER_LITERAL, expecting IDENTIFIER or STRING_LITERAL
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:3384 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 23. String Literal "1111111" is not of size 256.
+WARNING:HDLParsers:1406 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 20. No sensitivity list and no wait in the process
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/xilinx/wavgen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:3384 - c:/xilinx/wavgen/WaveGenModule1.vhd Line 21. String Literal "1111111" is not of size 256.
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/WavGen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:3384 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 21. String Literal "1111111" is not of size 256.
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/WavGen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:3384 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 21. String Literal "11111111" is not of size 256.
+--> 
+
+Total memory usage is 55424 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3458 - Because of erroneous VHDL in VHDL file C:\Xilinx\WavGen/WaveGenModule1.vhd, automatic determination of correct order of compilation of files in project file wavegenmodule1_vhdl.prj is not possible. Please compile your vhdl file(s) individually to find and fix the error(s) in your vhdl file(s). Defaulting to compilation in the order vhdl file names appear in the project file.
+Compiling vhdl file C:\Xilinx\WavGen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:164 - C:\Xilinx\WavGen/WaveGenModule1.vhd Line 22. parse error, unexpected IDENTIFIER
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3458 - Because of erroneous VHDL in VHDL file C:\Xilinx\WavGen/WaveGenModule1.vhd, automatic determination of correct order of compilation of files in project file wavegenmodule1_vhdl.prj is not possible. Please compile your vhdl file(s) individually to find and fix the error(s) in your vhdl file(s). Defaulting to compilation in the order vhdl file names appear in the project file.
+Compiling vhdl file C:\Xilinx\WavGen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:164 - C:\Xilinx\WavGen/WaveGenModule1.vhd Line 22. parse error, unexpected IDENTIFIER
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/WavGen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:3384 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 24. String Literal "0" is not of size 2.
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/WavGen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:812 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 24. A value is missing in case.
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/WavGen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:800 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 24. Type of data is incompatible with type of 11111111.
+ERROR:HDLParsers:3384 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 24. String Literal "0" is not of size 3.
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/WavGen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:800 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 24. Type of s is incompatible with type of 0.
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/WavGen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:813 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 24. Enumerated value U is missing in case.
+--> 
+
+Total memory usage is 55424 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/WavGen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:813 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 24. Enumerated value U is missing in case.
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/WavGen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:800 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 24. Type of s is incompatible with type of 0.
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/WavGen/WaveGenModule1.vhd in Library work.
+Entity <wavegenmodule1> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <wavegenmodule1> (Architecture <behavioral>).
+Entity <wavegenmodule1> analyzed. Unit <wavegenmodule1> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <wavegenmodule1>.
+    Related source file is C:/Xilinx/WavGen/WaveGenModule1.vhd.
+Unit <wavegenmodule1> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <wavegenmodule1> ...
+Loading device for application Xst from file '3s400.nph' in environment D:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block wavegenmodule1, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-4 
+
+ Number of bonded IOBs:                  8  out of    141     5%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/WavGen/WaveGenModule1.vhd in Library work.
+Entity <wavegenmodule1> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <wavegenmodule1> (Architecture <behavioral>).
+Entity <wavegenmodule1> analyzed. Unit <wavegenmodule1> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <wavegenmodule1>.
+    Related source file is C:/Xilinx/WavGen/WaveGenModule1.vhd.
+WARNING:Xst:1306 - Output <prescalar> is never assigned.
+WARNING:Xst:1306 - Output <counter> is never assigned.
+WARNING:Xst:1306 - Output <WaveSelect> is never assigned.
+Unit <wavegenmodule1> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <wavegenmodule1> ...
+Loading device for application Xst from file '3s400.nph' in environment D:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block wavegenmodule1, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-4 
+
+ Number of bonded IOBs:                  8  out of    141     5%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/WavGen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:3312 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 17. Undefined symbol 'ws_in'.
+ERROR:HDLParsers:1209 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 17. ws_in: Undefined symbol (last report in this block)
+ERROR:HDLParsers:507 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 16. ) is not a correct resolution function name
+ERROR:HDLParsers:164 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 17. parse error, unexpected COLON, expecting SEMICOLON or CLOSEPAR
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/WavGen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:3312 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 17. Undefined symbol 'ws_in'.
+ERROR:HDLParsers:1209 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 17. ws_in: Undefined symbol (last report in this block)
+ERROR:HDLParsers:507 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 16. ) is not a correct resolution function name
+ERROR:HDLParsers:164 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 17. parse error, unexpected COLON, expecting SEMICOLON or CLOSEPAR
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/WavGen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:3312 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 17. Undefined symbol 'ws_in'.
+ERROR:HDLParsers:1209 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 17. ws_in: Undefined symbol (last report in this block)
+ERROR:HDLParsers:507 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 16. ) is not a correct resolution function name
+ERROR:HDLParsers:164 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 17. parse error, unexpected COLON, expecting SEMICOLON or CLOSEPAR
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/WavGen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:808 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 28. = can not have such operands in this context.
+ERROR:HDLParsers:3312 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 29. Undefined symbol 'data'.
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/WavGen/WaveGenModule1.vhd in Library work.
+ERROR:HDLParsers:3312 - C:/Xilinx/WavGen/WaveGenModule1.vhd Line 29. Undefined symbol 'data'.
+--> 
+
+Total memory usage is 56448 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/WavGen/WaveGenModule1.vhd in Library work.
+Entity <wavegenmodule1> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <wavegenmodule1> (Architecture <behavioral>).
+INFO:Xst:1304 - Contents of register <output> in unit <wavegenmodule1> never changes during circuit operation. The register is replaced by logic.
+Entity <wavegenmodule1> analyzed. Unit <wavegenmodule1> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <wavegenmodule1>.
+    Related source file is C:/Xilinx/WavGen/WaveGenModule1.vhd.
+WARNING:Xst:647 - Input <ws_in> is never used.
+WARNING:Xst:1306 - Output <prescalar> is never assigned.
+WARNING:Xst:1306 - Output <counter> is never assigned.
+WARNING:Xst:647 - Input <decf_in> is never used.
+WARNING:Xst:647 - Input <incf_in> is never used.
+WARNING:Xst:647 - Input <waveselect> is never used.
+Unit <wavegenmodule1> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <wavegenmodule1> ...
+Loading device for application Xst from file '3s400.nph' in environment D:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block wavegenmodule1, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-4 
+
+ Number of bonded IOBs:                  8  out of    141     5%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+

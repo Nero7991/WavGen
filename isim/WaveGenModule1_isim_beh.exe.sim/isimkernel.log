@@ -1,0 +1,10 @@
+Command line:
+   WaveGenModule1_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58743
+
+Thu Dec 16 21:42:39 2021
+
+
+ Elaboration Time: 0.0625 sec

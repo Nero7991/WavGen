@@ -1,0 +1,7 @@
+V1 4
+FL C:/Xilinx/WavGen/WaveGenModule1.vhd 2018/03/01.12:09:22
+EN work/WAVEGENMODULE1  FL C:/Xilinx/WavGen/WaveGenModule1.vhd \
+      PB ieee/STD_LOGIC_1164 PB ieee/STD_LOGIC_ARITH PB ieee/STD_LOGIC_UNSIGNED
+AR work/WAVEGENMODULE1/BEHAVIORAL FL C:/Xilinx/WavGen/WaveGenModule1.vhd \
+      EN work/WAVEGENMODULE1
+FL c:/xilinx/wavgen/WaveGenModule1.vhd 2018/02/23.12:46:58

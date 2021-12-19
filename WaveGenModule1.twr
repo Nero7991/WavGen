@@ -1,0 +1,79 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -filter
+C:/Users/orencollaco/Documents/Xilinx/WavGen/WavGen/iseconfig/filter.filter
+-intstyle ise -e 3 -s 3 -n 3 -xml WaveGenModule1.twx WaveGenModule1.ncd -o
+WaveGenModule1.twr WaveGenModule1.pcf -ucf PinImplement.ucf
+
+Design file:              WaveGenModule1.ncd
+Physical constraint file: WaveGenModule1.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+rst         |    3.817(R)|      SLOW  |   -0.474(R)|      SLOW  |clk_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+output<0>   |         8.853(R)|      SLOW  |         4.281(R)|      FAST  |clk_BUFGP         |   0.000|
+output<1>   |         8.729(R)|      SLOW  |         4.339(R)|      FAST  |clk_BUFGP         |   0.000|
+output<2>   |         8.657(R)|      SLOW  |         4.261(R)|      FAST  |clk_BUFGP         |   0.000|
+output<3>   |         8.179(R)|      SLOW  |         3.964(R)|      FAST  |clk_BUFGP         |   0.000|
+output<4>   |         8.621(R)|      SLOW  |         4.253(R)|      FAST  |clk_BUFGP         |   0.000|
+output<5>   |         8.230(R)|      SLOW  |         4.088(R)|      FAST  |clk_BUFGP         |   0.000|
+output<6>   |         9.332(R)|      SLOW  |         4.695(R)|      FAST  |clk_BUFGP         |   0.000|
+output<7>   |         8.148(R)|      SLOW  |         4.042(R)|      FAST  |clk_BUFGP         |   0.000|
+tx          |        12.053(R)|      SLOW  |         4.511(R)|      FAST  |clk_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.348|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sat Dec 18 23:30:05 2021 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4547 MB
+
+
+
