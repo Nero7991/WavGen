@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.ncd
-OUTFILE=C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.bit
+INFILE=C:\Users\Oren Collaco\Documents\GitHub\WavGen\WaveGenModule1.ncd
+OUTFILE=C:\Users\Oren Collaco\Documents\GitHub\WavGen\WaveGenModule1.bit
 FAMILY=Spartan6
 PART=xc6slx9-3tqg144
-WORKINGDIR=C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen
+WORKINGDIR=C:\Users\Oren Collaco\Documents\GitHub\WavGen
 LICENSE=WebPack
 USER_INFO=211483540_0_0_771

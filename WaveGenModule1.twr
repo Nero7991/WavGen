@@ -3,8 +3,8 @@ Release 14.7 Trace  (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -filter
-C:/Users/orencollaco/Documents/Xilinx/WavGen/WavGen/iseconfig/filter.filter
--intstyle ise -e 3 -s 3 -n 3 -xml WaveGenModule1.twx WaveGenModule1.ncd -o
+C:/Users/Oren Collaco/Documents/GitHub/WavGen/iseconfig/filter.filter -intstyle
+ise -e 3 -s 3 -n 3 -xml WaveGenModule1.twx WaveGenModule1.ncd -o
 WaveGenModule1.twr WaveGenModule1.pcf -ucf PinImplement.ucf
 
 Design file:              WaveGenModule1.ncd
@@ -66,14 +66,14 @@ clk            |    4.348|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Sat Dec 18 23:30:05 2021 
+Analysis completed Wed Dec 22 13:13:29 2021 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 4547 MB
+Peak Memory Usage: 209 MB
 
 
 

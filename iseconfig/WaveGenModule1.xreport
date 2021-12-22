@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="1.7" >
  <header>
-  <DateModified>2021-12-17T22:42:07</DateModified>
+  <DateModified>2021-12-22T13:07:19</DateModified>
   <ModuleName>WaveGenModule1</ModuleName>
   <DateInitialized>2018-02-23T11:28:22</DateInitialized>
-  <ImplementationReportsDirectory>C:/Users/orencollaco/Documents/Xilinx/WavGen/WavGen\</ImplementationReportsDirectory>
-  <SavedFilePath>C:/Users/orencollaco/Documents/Xilinx/WavGen/WavGen/iseconfig/WaveGenModule1.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Oren Collaco/Documents/GitHub/WavGen\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Oren Collaco/Documents/GitHub/WavGen/iseconfig/WaveGenModule1.xreport</SavedFilePath>
   <EnableMessageFiltering>true</EnableMessageFiltering>
   <SummaryTimeStamp>2021-12-16T21:51:01</SummaryTimeStamp>
  </header>

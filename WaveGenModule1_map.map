@@ -3,16 +3,16 @@ Xilinx Map Application Log File for Design 'WaveGenModule1'
 
 Design Information
 ------------------
-Command Line   : map -filter
-C:/Users/orencollaco/Documents/Xilinx/WavGen/WavGen/iseconfig/filter.filter
--intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0
--register_duplication off -r 4 -global_opt off -mt off -ir off -pr b -lc off
--power off -o WaveGenModule1_map.ncd WaveGenModule1.ngd WaveGenModule1.pcf 
+Command Line   : map -filter "C:/Users/Oren
+Collaco/Documents/GitHub/WavGen/iseconfig/filter.filter" -intstyle ise -p
+xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off
+-r 4 -global_opt off -mt off -ir off -pr b -lc off -power off -o
+WaveGenModule1_map.ncd WaveGenModule1.ngd WaveGenModule1.pcf 
 Target Device  : xc6slx9
 Target Package : tqg144
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Sat Dec 18 23:29:40 2021
+Mapped Date    : Wed Dec 22 13:10:47 2021
 
 Mapping design into LUTs...
 Running directed packing...
@@ -21,54 +21,54 @@ Updating timing models...
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 5 secs 
-Total CPU  time at the beginning of Placer: 5 secs 
+Total REAL time at the beginning of Placer: 31 secs 
+Total CPU  time at the beginning of Placer: 31 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:2829463b) REAL time: 6 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:2829463b) REAL time: 34 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:2829463b) REAL time: 6 secs 
+Phase 2.7  Design Feasibility Check (Checksum:2829463b) REAL time: 35 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:2829463b) REAL time: 6 secs 
+Phase 3.31  Local Placement Optimization (Checksum:2829463b) REAL time: 35 secs 
 
 Phase 4.2  Initial Placement for Architecture Specific Features
 
 Phase 4.2  Initial Placement for Architecture Specific Features
-(Checksum:6f35a8b3) REAL time: 7 secs 
+(Checksum:6f35a8b3) REAL time: 54 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:6f35a8b3) REAL time: 7 secs 
+Phase 5.36  Local Placement Optimization (Checksum:6f35a8b3) REAL time: 54 secs 
 
 Phase 6.30  Global Clock Region Assignment
-Phase 6.30  Global Clock Region Assignment (Checksum:6f35a8b3) REAL time: 7 secs 
+Phase 6.30  Global Clock Region Assignment (Checksum:6f35a8b3) REAL time: 54 secs 
 
 Phase 7.3  Local Placement Optimization
-Phase 7.3  Local Placement Optimization (Checksum:6f35a8b3) REAL time: 7 secs 
+Phase 7.3  Local Placement Optimization (Checksum:6f35a8b3) REAL time: 54 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:6f35a8b3) REAL time: 7 secs 
+Phase 8.5  Local Placement Optimization (Checksum:6f35a8b3) REAL time: 54 secs 
 
 Phase 9.8  Global Placement
 ...........
 ...........
-Phase 9.8  Global Placement (Checksum:79940880) REAL time: 8 secs 
+Phase 9.8  Global Placement (Checksum:79940880) REAL time: 56 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:79940880) REAL time: 8 secs 
+Phase 10.5  Local Placement Optimization (Checksum:79940880) REAL time: 56 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:b9959198) REAL time: 8 secs 
+Phase 11.18  Placement Optimization (Checksum:b9959198) REAL time: 56 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:b9959198) REAL time: 8 secs 
+Phase 12.5  Local Placement Optimization (Checksum:b9959198) REAL time: 56 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:b9959198) REAL time: 8 secs 
+Phase 13.34  Placement Validation (Checksum:b9959198) REAL time: 57 secs 
 
-Total REAL time to Placer completion: 8 secs 
-Total CPU  time to Placer completion: 8 secs 
+Total REAL time to Placer completion: 57 secs 
+Total CPU  time to Placer completion: 55 secs 
 Running post-placement packing...
 Writing output files...
 
@@ -140,9 +140,9 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                3.88
 
-Peak Memory Usage:  4489 MB
-Total REAL time to MAP completion:  8 secs 
-Total CPU time to MAP completion:   8 secs 
+Peak Memory Usage:  361 MB
+Total REAL time to MAP completion:  1 mins 
+Total CPU time to MAP completion:   58 secs 
 
 Mapping completed.
 See MAP report file "WaveGenModule1_map.mrp" for details.

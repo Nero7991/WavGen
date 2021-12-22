@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.17 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.79 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.17 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.81 secs
  
 --> Reading design: WaveGenModule1.prj
 
@@ -105,7 +105,7 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" into library work
+Parsing VHDL file "C:\Users\Oren Collaco\Documents\GitHub\WavGen\WaveGenModule1.vhd" into library work
 Parsing entity <WaveGenModule1>.
 Parsing architecture <Behavioral> of entity <wavegenmodule1>.
 
@@ -114,25 +114,25 @@ Parsing architecture <Behavioral> of entity <wavegenmodule1>.
 =========================================================================
 
 Elaborating entity <WaveGenModule1> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 147: output_buf should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 148: output_buf should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 149: output_buf should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 150: output_buf should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 151: output_buf should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 152: output_buf should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 153: output_buf should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 154: output_buf should be on the sensitivity list of the process
-INFO:HDLCompiler:679 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 155. Case statement is complete. others clause is never selected
-WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 171: sine_lut should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 172: tri_lut should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd" Line 173: squ_lut should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Oren Collaco\Documents\GitHub\WavGen\WaveGenModule1.vhd" Line 147: output_buf should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Oren Collaco\Documents\GitHub\WavGen\WaveGenModule1.vhd" Line 148: output_buf should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Oren Collaco\Documents\GitHub\WavGen\WaveGenModule1.vhd" Line 149: output_buf should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Oren Collaco\Documents\GitHub\WavGen\WaveGenModule1.vhd" Line 150: output_buf should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Oren Collaco\Documents\GitHub\WavGen\WaveGenModule1.vhd" Line 151: output_buf should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Oren Collaco\Documents\GitHub\WavGen\WaveGenModule1.vhd" Line 152: output_buf should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Oren Collaco\Documents\GitHub\WavGen\WaveGenModule1.vhd" Line 153: output_buf should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Oren Collaco\Documents\GitHub\WavGen\WaveGenModule1.vhd" Line 154: output_buf should be on the sensitivity list of the process
+INFO:HDLCompiler:679 - "C:\Users\Oren Collaco\Documents\GitHub\WavGen\WaveGenModule1.vhd" Line 155. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:92 - "C:\Users\Oren Collaco\Documents\GitHub\WavGen\WaveGenModule1.vhd" Line 171: sine_lut should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Oren Collaco\Documents\GitHub\WavGen\WaveGenModule1.vhd" Line 172: tri_lut should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Oren Collaco\Documents\GitHub\WavGen\WaveGenModule1.vhd" Line 173: squ_lut should be on the sensitivity list of the process
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <WaveGenModule1>.
-    Related source file is "C:\Users\orencollaco\Documents\Xilinx\WavGen\WavGen\WaveGenModule1.vhd".
+    Related source file is "C:\Users\Oren Collaco\Documents\GitHub\WavGen\WaveGenModule1.vhd".
 WARNING:Xst:2999 - Signal 'sine_lut', unconnected in block 'WaveGenModule1', is tied to its initial value.
 WARNING:Xst:2999 - Signal 'tri_lut', unconnected in block 'WaveGenModule1', is tied to its initial value.
 WARNING:Xst:2999 - Signal 'squ_lut', unconnected in block 'WaveGenModule1', is tied to its initial value.
@@ -614,12 +614,12 @@ clk_2hz        |    2.800|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 9.17 secs
+Total REAL time to Xst completion: 37.00 secs
+Total CPU time to Xst completion: 36.63 secs
  
 --> 
 
-Total memory usage is 4509904 kilobytes
+Total memory usage is 288228 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   29 (   0 filtered)

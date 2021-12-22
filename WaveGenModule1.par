@@ -1,12 +1,11 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-ORENCOLLACOC9E4::  Sat Dec 18 23:29:52 2021
+OREN-WIN7-PC::  Wed Dec 22 13:12:06 2021
 
-par -filter
-C:/Users/orencollaco/Documents/Xilinx/WavGen/WavGen/iseconfig/filter.filter -w
--intstyle ise -ol high -mt off WaveGenModule1_map.ncd WaveGenModule1.ncd
-WaveGenModule1.pcf 
+par -filter "C:/Users/Oren
+Collaco/Documents/GitHub/WavGen/iseconfig/filter.filter" -w -intstyle ise -ol
+high -mt off WaveGenModule1_map.ncd WaveGenModule1.ncd WaveGenModule1.pcf 
 
 
 Constraints file: WaveGenModule1.pcf.
@@ -91,35 +90,35 @@ Specific Feature Utilization:
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 4 secs 
-Finished initial Timing Analysis.  REAL time: 4 secs 
+Starting initial Timing Analysis.  REAL time: 25 secs 
+Finished initial Timing Analysis.  REAL time: 25 secs 
 
 Starting Router
 
 
-Phase  1  : 520 unrouted;      REAL time: 4 secs 
+Phase  1  : 520 unrouted;      REAL time: 26 secs 
 
-Phase  2  : 433 unrouted;      REAL time: 4 secs 
+Phase  2  : 433 unrouted;      REAL time: 29 secs 
 
-Phase  3  : 118 unrouted;      REAL time: 5 secs 
+Phase  3  : 118 unrouted;      REAL time: 30 secs 
 
-Phase  4  : 118 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  4  : 118 unrouted; (Par is working to improve performance)     REAL time: 33 secs 
 
 Updating file: WaveGenModule1.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 35 secs 
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 35 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 35 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 35 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 35 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
-Total REAL time to Router completion: 5 secs 
-Total CPU time to Router completion: 5 secs 
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 35 secs 
+Total REAL time to Router completion: 35 secs 
+Total CPU time to Router completion: 35 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -159,10 +158,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 6 secs 
-Total CPU time to PAR completion: 6 secs 
+Total REAL time to PAR completion: 37 secs 
+Total CPU time to PAR completion: 37 secs 
 
-Peak Memory Usage:  4452 MB
+Peak Memory Usage:  303 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
